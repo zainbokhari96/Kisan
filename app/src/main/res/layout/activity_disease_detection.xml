@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Disease.DiseaseDetection">
+    <TextureView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/texture_view"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/gallary_btn"
+        android:src="@drawable/ic_gallary"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="18dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/camera_btn"
+        android:src="@drawable/ic_camera_btn"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="22dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_results"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@drawable/shade"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:id="@+id/moffer"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:text="Results"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.9"/>
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight=".1"
+                android:src="@drawable/ic_close"
+                android:layout_gravity="center"
+                android:layout_marginRight="8dp"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.timqi.sectorprogressview.ColorfulRingProgressView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/percentage_view"
+                android:layout_width="250dp"
+                android:layout_height="270dp"
+                android:layout_marginStart="80dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:bgColor="@color/colorAccent"
+                app:fgColorEnd="#BC0946"
+                app:fgColorStart="@color/colorPrimaryDark"
+                app:percent="81"
+                app:startAngle="180"
+                app:strokeWidth="9.5dp"
+                />
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Traffic Light 81%"
+                android:textColor="@color/colorBackground"
+                android:textSize="12sp"
+                android:padding="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/gallary_pic"
+        android:src="@drawable/k1"
+        android:visibility="visible"
+        android:layout_gravity="top"
+        android:layout_marginLeft="6dp"/>
+
+</FrameLayout>

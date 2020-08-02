@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kisan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".priceORalert"></activity>
+        <activity android:name=".Alert.EnterAlert" />
+        <activity android:name=".Alert.AlertUpdates" />
+        <activity android:name=".Price.AdminPanel" />
+        <activity android:name=".Disease.SelectCropType" />
+        <activity android:name=".Disease.DiseaseDetection" />
+        <activity android:name=".Authentication" />
+        <activity android:name=".LanguageSelection" />
+        <activity android:name=".Dashboard_Urdu" />
+        <activity android:name=".Price.RawalpindiPriceList" />
+        <activity android:name=".Price.Rawalpindi" />
+        <activity android:name=".Price.KasurPriceList" />
+        <activity android:name=".Price.Kasur" />
+        <activity android:name=".Price.SialkotPriceList" />
+        <activity android:name=".Price.Sialkot" />
+        <activity android:name=".Price.ShiekhupuraPriceList" />
+        <activity android:name=".Price.Shiekhupura" />
+        <activity android:name=".Price.SargodhaPriceList" />
+        <activity android:name=".Price.Sargodha" />
+        <activity android:name=".Price.SahiwalPriceList" />
+        <activity android:name=".Price.Sahiwal" />
+        <activity android:name=".Price.RahimYarKhanPriceList" />
+        <activity android:name=".Price.RahimYarKhan" />
+        <activity android:name=".Price.MultanPriceList" />
+        <activity android:name=".Price.Multan" />
+        <activity android:name=".Price.KhanewalPriceList" />
+        <activity android:name=".Price.Khanewal" />
+        <activity android:name=".Price.GujranwalaPriceList" />
+        <activity android:name=".Price.Gujranwala" />
+        <activity android:name=".Price.FaisalabadPriceList" />
+        <activity android:name=".Price.Faisalabad" />
+        <activity android:name=".Price.BahawalpurPriceList" />
+        <activity android:name=".Price.Bahawalpur" />
+        <activity android:name=".Price.AttockPriceList" />
+        <activity android:name=".Price.SelectOptionForPriceUpdate" />
+        <activity android:name=".Price.Attock" />
+        <activity android:name=".Price.SelectOptionForPriceList" />
+        <activity android:name=".Price.LahorePriceList" />
+        <activity android:name=".Price.Lahore" />
+        <activity android:name=".Newsfeed.NewsFeed" />
+        <activity android:name=".Videos.videos" />
+        <activity android:name=".Feedback.feedback" />
+        <activity android:name=".Weather.SearchbyCity" />
+        <activity android:name=".Weather.weather" />
+        <activity android:name=".Dashboard">
+        <!--<intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>-->
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

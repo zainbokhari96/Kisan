@@ -1,0 +1,4 @@
+corn_common_rust
+corn_blight
+corn_healthy
+corn_cercospora_spot

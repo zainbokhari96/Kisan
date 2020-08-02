@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Price.FaisalabadPriceList">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="FAISALABAD PRICE LIST"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/newdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="58dp"
+        android:text="@string/dd_mm_yy"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/p1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/productheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:text="Product"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/priceheading"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/priceheading" />
+
+    <TextView
+        android:id="@+id/priceheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Price"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/p1"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <TextView
+        android:id="@+id/p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="57dp"
+        android:text="PKR"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/newdate"
+        app:layout_constraintTop_toBottomOf="@+id/priceheading" />
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="37dp"
+        android:text="Patato"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productheading" />
+
+    <TextView
+        android:id="@+id/p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="PKR"
+        android:textColor="#191919"
+        app:layout_constraintStart_toStartOf="@+id/p1"
+        app:layout_constraintTop_toBottomOf="@+id/p1" />
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="24dp"
+        android:text="Onion"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h1" />
+
+    <TextView
+        android:id="@+id/p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="PKR"
+        android:textColor="#1B1B1B"
+        app:layout_constraintStart_toStartOf="@+id/p2"
+        app:layout_constraintTop_toBottomOf="@+id/p2" />
+
+    <TextView
+        android:id="@+id/p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="PKR"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/p3"
+        app:layout_constraintTop_toBottomOf="@+id/p3" />
+
+    <TextView
+        android:id="@+id/h3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="31dp"
+        android:text="Tomato"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h2" />
+
+    <TextView
+        android:id="@+id/h4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="27dp"
+        android:text="Rice"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h3" />
+
+    <TextView
+        android:id="@+id/h5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="28dp"
+        android:text="Wheat"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h4" />
+
+    <TextView
+        android:id="@+id/p5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="PKR"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/p4"
+        app:layout_constraintTop_toBottomOf="@+id/p4" />
+
+    <TextView
+        android:id="@+id/h6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Sugar Cane"
+        android:textColor="#0C0C0C"
+        app:layout_constraintEnd_toEndOf="@+id/h7"
+        app:layout_constraintStart_toEndOf="@+id/h7"
+        app:layout_constraintTop_toBottomOf="@+id/h5" />
+
+    <TextView
+        android:id="@+id/h7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Pulse"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h6" />
+
+    <TextView
+        android:id="@+id/h8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Maize"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/h7" />
+
+    <TextView
+        android:id="@+id/p6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="PKR"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/p5"
+        app:layout_constraintTop_toBottomOf="@+id/p5" />
+
+    <TextView
+        android:id="@+id/p7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="PKR"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/p8"
+        app:layout_constraintTop_toBottomOf="@+id/p6" />
+
+    <TextView
+        android:id="@+id/p8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="PKR"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/p6"
+        app:layout_constraintTop_toBottomOf="@+id/p7" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardElevation="2dp"
+    app:contentPadding="2dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="4dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/videoText"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:background="@android:color/background_dark"
+                android:text="Title" />
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/exoplayer_view"
+                android:background="@android:color/black"
+                app:resize_mode="fill"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "135761719742",
+    "firebase_url": "https://fyp-kisan.firebaseio.com",
+    "project_id": "fyp-kisan",
+    "storage_bucket": "fyp-kisan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135761719742:android:439ccdabe4f7f69ce749ef",
+        "android_client_info": {
+          "package_name": "com.example.kisan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135761719742-ds9bvhrr7a83ugs2u2po4e5j6c4evg16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiVB9F70tZFTRnd4_joeGjrFq2R6g8xk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135761719742-ds9bvhrr7a83ugs2u2po4e5j6c4evg16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
